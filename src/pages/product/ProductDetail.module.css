@@ -1,0 +1,76 @@
+.container {
+    padding: 20px;
+}
+
+.top {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.imageSection {
+    flex: 1;
+    min-width: 250px;
+}
+
+.thumbnail {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.qr {
+    width: 100px;
+    /* margin-top: 8px; */
+}
+
+.reviews {
+    margin-top: 30px;
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.reviewCard {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.backBtn {
+    display: flex;
+    align-items: right;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    transition: color 0.2s ease;
+}
+
+.backBtn:hover {
+    color: var(--danger-color); }

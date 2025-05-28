@@ -1,0 +1,46 @@
+:root {
+    --color-primary: #8b5cf6;
+    --color-primary-hover: #8b5cf690;
+    --color-text: #1f2937;
+    --color-bg: #f3f4f6;
+    --color-white: #ffffff;
+    --color-error: #ef4444;
+    --color-border: #d1d5db;
+    --color-muted: #888888;
+    --primary: #6366f1;
+    --primary-dark: #4f46e5;
+    --secondary: #8b5cf6;
+    --accent: #ec4899;
+    --success: #059669;
+    --success-light: #10b981;
+    --danger: #dc2626;
+    --danger-light: #ef4444;
+    --text-dark: #1e293b;
+    --text-medium: #475569;
+    --text-light: #64748b;
+    --background: #f8fafc;
+    --background-alt: #e2e8f0;
+    --white: #ffffff;
+    --gray-light: #f1f5f9;
+    --shadow-light: rgba(0, 0, 0, 0.08);
+    --shadow-medium: rgba(0, 0, 0, 0.15);
+    --shadow-dark: rgba(0, 0, 0, 0.3);
+
+    --color-navbar-bg: rgba(255, 255, 255, 0.95);
+    --color-link: #475569;
+    --color-link-hover-bg: rgba(255, 255, 255, 0.7);
+    --color-logout-gradient: linear-gradient(135deg, var(--color-error), #dc2626);
+    --color-primary-gradient: linear-gradient(135deg, #6366f1, var(--color-primary));
+    --color-notification-gradient: linear-gradient(135deg, var(--color-error), #dc2626);
+    --color-blur-bg: rgba(255, 255, 255, 0.1);
+    --color-glow-shadow: rgba(99, 102, 241, 0.3);
+
+    --gradient-primary-90: linear-gradient(90deg, #6366f1, #8b5cf6, #ec4899);
+    --gradient-primary-135: linear-gradient(135deg, #6366f1, #8b5cf6, #ec4899);
+    --gradient-bg: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    --gradient-hover: linear-gradient(135deg, rgba(99, 102, 241, 0.05), rgba(139, 92, 246, 0.05));
+    --gradient-heading-text: linear-gradient(135deg, #6366f1, #8b5cf6, #ec4899);
+    --gradient-table-th: linear-gradient(135deg, #f8fafc, #e2e8f0);
+    --gradient-border-bottom: linear-gradient(90deg, transparent, #6366f1, transparent);
+    --btn-disabled: linear-gradient(135deg, #94a3b8, #cbd5e1);
+}

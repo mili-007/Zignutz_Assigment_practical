@@ -1,0 +1,113 @@
+@import "../../assets/styles/variables.css";
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-bg);
+    /* background-color: red; */
+    padding: 1rem;
+}
+
+.form {
+    background-color: var(--color-white);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: var(--color-text);
+}
+
+.inputGroup {
+    margin-bottom: 1rem;
+}
+
+.label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--color-text);
+}
+
+.input {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.input:focus {
+    border-color: var(--color-primary);
+}
+
+.error {
+    color: var(--color-error);
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    /* Adjust spacing between buttons */
+    margin-top: 1rem;
+}
+
+.button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.button:hover {
+    background-color: var(--color-primary-hover);
+}
+
+.inputWithIcon {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.inputWithIcon input.input {
+    padding-right: 2.5rem;
+    /* space for the icon */
+}
+
+.iconToggle {
+    position: absolute;
+    right: 0.75rem;
+    cursor: pointer;
+    color: var(--color-border);
+    display: flex;
+    align-items: center;
+    height: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    user-select: none;
+    transition: color 0.2s;
+}
+
+.iconToggle:hover,
+.iconToggle:focus {
+    color: var(--color-primary);
+    outline: none;
+}
